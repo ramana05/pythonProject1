@@ -1,3 +1,8 @@
+import os 
+from flask import request
+import sqlalchemy
+@app.route('/example')
+
 print('Hello world is there or not ')
 def get_users():
     user = request.args["user"]
